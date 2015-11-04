@@ -89,7 +89,6 @@
             ]
         ]
     }
-=======
   "name": "openmage/magento-lts",
   "license": "OSL-3.0",
   "type": "magento-source",

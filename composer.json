@@ -1,11 +1,24 @@
 {
-    "name": "magento/core",
-    "license": "OSL-3.0",
-    "type": "magento-core",
-    "description": "Magento Core",
-    "homepage": "http://www.magentocommerce.com",
-    "require": {},
-    "extra": {
+  "name": "magento/core",
+  "license": "OSL-3.0",
+  "type": "magento-core",
+  "require": {
+    "php": ">=5.2.13",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Lee Saferite",
+      "email": "lee.saferite@aoe.com",
+      "role": "Maintainer"
+    },
+    {
+      "name": "David Robinson",
+      "email": "david.robinson@aoe.com",
+      "role": "Maintainer"
+    }
+  ],
+  "extra": {
         "map": [
             [
                 "app",
@@ -89,24 +102,4 @@
             ]
         ]
     }
-=======
-  "name": "openmage/magento-lts",
-  "license": "OSL-3.0",
-  "type": "magento-source",
-  "require": {
-    "php": ">=5.2.13",
-    "magento-hackathon/magento-composer-installer": "*"
-  },
-  "authors": [
-    {
-      "name": "Lee Saferite",
-      "email": "lee.saferite@aoe.com",
-      "role": "Maintainer"
-    },
-    {
-      "name": "David Robinson",
-      "email": "david.robinson@aoe.com",
-      "role": "Maintainer"
-    }
-  ]
 }
